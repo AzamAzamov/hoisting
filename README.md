@@ -32,7 +32,7 @@ scope in which program-wide variables, functions, and objects operate.
 The global context contains global variables, functions, and other objects
 that are accessible throughout the program.
 
-## Example
+## Example:   
 ```
 var globalVar = "I am a global variable";
 
@@ -53,7 +53,7 @@ Variables declared inside a function are accessible only within that function an
 functions. They are not accessible outside of the function in which they are defined. This
 means that variables declared within a function cannot be accessed before their
 declaration or outside of the function
-## Example
+## Example:
 ```
 function testScope() {
   var a = "var inside function";
@@ -75,7 +75,7 @@ declared with let and const keywords have block scope.Variables declared inside 
 are accessible only within that function and any nested functions. They are not accessible
 outside of the function in which they are defined. This means that variables declared within a
 function cannot be accessed before their declaration or outside of the function.
-## Example
+## Example:
 ```
 {
   let blockVar = "I'm inside a block";
@@ -92,7 +92,7 @@ top of their scope before code execution.
 
 Hoisting in JavaScript is a behavior in which a function or a variable can be used before
 declaration.
-## Example
+## Example:
 ```
 console.log(a); // ❓ Output: undefined (Hoisted but not initialized)
 var a = 10;
@@ -108,7 +108,7 @@ of their scope, making the function available
 to be called anywhere in that scope, even
 before its actual declaration in the code.
 
-## Example
+## Example:
 ```
 sayHello(); // ✅ Works!
 
